@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em 0.5em;
+    z-index: 1000;
+}
+
+header .logo {
+    max-width: 300px;
+}
+
+header .toogle {
+    max-width: 40px;
+    cursor: pointer;
+}
+
+header .toogle img,
+header .logo img {
+    max-width: 100%;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(terminator_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content {
+    max-width: 550px;
+    position: fixed;
+}
+
+.banner .content h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.banner .content h2 span {
+    font-weight: 800;
+}
+
+.banner .content p {
+    font-size: 1.1em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 1em 0 2em;
+}
+
+.play-btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.play-btn img {
+    margin-right: 10px;
+    max-width: 50px;
+}
